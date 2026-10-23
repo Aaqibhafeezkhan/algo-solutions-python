@@ -27,10 +27,47 @@
 This started as my personal collection of Python solutions to problems from LeetCode, Codewars, HackerRank, CheckiO, and GeeksforGeeks.
 
 I'm growing it into a place where the **same problem is solved in many languages**, so learners can compare styles side by side. Most solutions are in Python for now, and I'd love your help adding more languages.
+<<<<<<< Updated upstream
+# algo-solutions-python
+
+A personal collection of my Python solutions to algorithm problems from LeetCode and Codewars. It is intended for learning, practice, and reference.
+=======
+<div align="center">
+
+# Programming Problem Solving
+
+<p align="center">
+    <img src="assets/solution.png" alt="Solution Image">
+</p>
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#how-to-contribute)
+[![Good First Issues](https://img.shields.io/badge/good%20first-issues-7057ff.svg)](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=LeetCode&logoColor=black)](https://leetcode.com)
+[![Codewars](https://img.shields.io/badge/Codewars-B1361E?logo=codewars&logoColor=white)](https://www.codewars.com)
+[![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?logo=HackerRank&logoColor=white)](https://www.hackerrank.com)
+[![CheckiO](https://img.shields.io/badge/CheckiO-3E7DA1?logo=checkio&logoColor=white)](https://py.checkio.org/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-298D46?logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org)
+
+**A collection of algorithm solutions. Mostly Python, with every language welcome.**
+
+**Open for everyone: beginners, experienced developers, students, and people who don't code.**
+
+</div>
+>>>>>>> Stashed changes
+
+## About
+
+This started as my personal collection of Python solutions to problems from LeetCode, Codewars, HackerRank, CheckiO, and GeeksforGeeks.
+
+I'm growing it into a place where the **same problem is solved in many languages**, so learners can compare styles side by side. Most solutions are in Python for now, and I'd love your help adding more languages.
 
 ## Structure
 
 Python solutions are organized by year. Solutions in other languages live in `other_languages/`. Each file is named `practice<n>` in the order it was solved.
+
+Solutions are organized by language. Each file is named `practice<n>` in the order it was solved within that language's folder.
 
 ```
 algo-solutions-python/
@@ -49,6 +86,21 @@ algo-solutions-python/
     ├── cpp/
     │   └── practice1.cpp
     └── ...                                # any language is welcome
+├── solutions/
+│   ├── python/
+│   │   ├── practice1.py
+│   │   ├── practice2.py
+│   │   └── ...
+│   ├── javascript/
+│   │   └── practice1.js
+│   ├── java/
+│   │   └── practice1.java
+│   ├── cpp/
+│   │   └── practice1.cpp
+│   └── ...                     # any language is welcome
+├── assets/
+├── README.md
+└── LICENSE
 ```
 
 Each file includes the problem source and a short note at the top as a comment:
@@ -92,12 +144,13 @@ Prefer video? Watch this: [How to contribute on GitHub (YouTube)](https://youtu.
 
 ### Adding a solution
 
-- **Python:** add `practice<next number>.py` to the current year's folder
-- **Any other language:** add `other_languages/<language>/practice<next number>.<ext>`
+- Add your file as `solutions/<language>/practice<next number>.<ext>`, for example `solutions/python/practice42.py` or `solutions/javascript/practice1.js`
+- Use a lowercase language folder name (`python`, `javascript`, `typescript`, `java`, `cpp`, `c`, `csharp`, `go`, `rust`, `kotlin`, `swift`, `php`, `ruby`)
+- The next number is the highest `practice<n>` in that folder plus 1
 - Add a header comment with the problem name, link, and a one-line note
 - Messy but working code is welcome, and I'll help polish it in review
 
-Don't see a folder for your language? You'll be the first contributor for it, and I'll credit you here.
+Don't see a folder for your language? Create it. You'll be the first contributor for it, and I'll credit you here.
 
 ## Contributors
 
@@ -107,8 +160,13 @@ Thanks to everyone who helps this collection grow.
   <img src="https://contrib.rocks/image?repo=Huerte/algo-solutions-python" alt="Contributors">
 </a>
 
----
+## Platforms
 
+<<<<<<< Updated upstream
+- [LeetCode](https://leetcode.com)
+- [Codewars](https://www.codewars.com)
+- [HackerRank](https://www.hackerrank.com)
+=======
 ## License
 
 Distributed under the MIT License. See `LICENSE` for details.
@@ -116,3 +174,4 @@ Distributed under the MIT License. See `LICENSE` for details.
 ---
 
 &copy; 2026 Huerte
+>>>>>>> Stashed changes
