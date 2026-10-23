@@ -1,12 +1,11 @@
 <div align="center">
 
-# Programming Problem Solving (Python Edition)
+# Programming Problem Solving
 
 <p align="center">
     <img src="assets/solution.png" alt="Solution Image">
 </p>
 
-[![Platform](https://img.shields.io/badge/platform-Python-blueviolet.svg)](#)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=LeetCode&logoColor=black)](https://leetcode.com)
