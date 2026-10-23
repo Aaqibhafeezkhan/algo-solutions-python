@@ -27,40 +27,6 @@
 This started as my personal collection of Python solutions to problems from LeetCode, Codewars, HackerRank, CheckiO, and GeeksforGeeks.
 
 I'm growing it into a place where the **same problem is solved in many languages**, so learners can compare styles side by side. Most solutions are in Python for now, and I'd love your help adding more languages.
-<<<<<<< Updated upstream
-# algo-solutions-python
-
-A personal collection of my Python solutions to algorithm problems from LeetCode and Codewars. It is intended for learning, practice, and reference.
-=======
-<div align="center">
-
-# Programming Problem Solving
-
-<p align="center">
-    <img src="assets/solution.png" alt="Solution Image">
-</p>
-
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#how-to-contribute)
-[![Good First Issues](https://img.shields.io/badge/good%20first-issues-7057ff.svg)](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=LeetCode&logoColor=black)](https://leetcode.com)
-[![Codewars](https://img.shields.io/badge/Codewars-B1361E?logo=codewars&logoColor=white)](https://www.codewars.com)
-[![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?logo=HackerRank&logoColor=white)](https://www.hackerrank.com)
-[![CheckiO](https://img.shields.io/badge/CheckiO-3E7DA1?logo=checkio&logoColor=white)](https://py.checkio.org/)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-298D46?logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org)
-
-**A collection of algorithm solutions. Mostly Python, with every language welcome.**
-
-**Open for everyone: beginners, experienced developers, students, and people who don't code.**
-
-</div>
-
-## About
-
-This started as my personal collection of Python solutions to problems from LeetCode, Codewars, HackerRank, CheckiO, and GeeksforGeeks.
-
-I'm growing it into a place where the **same problem is solved in many languages**, so learners can compare styles side by side. Most solutions are in Python for now, and I'd love your help adding more languages.
 
 ## Structure
 
