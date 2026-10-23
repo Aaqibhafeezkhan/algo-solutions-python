@@ -55,7 +55,6 @@ A personal collection of my Python solutions to algorithm problems from LeetCode
 **Open for everyone: beginners, experienced developers, students, and people who don't code.**
 
 </div>
->>>>>>> Stashed changes
 
 ## About
 
@@ -162,11 +161,6 @@ Thanks to everyone who helps this collection grow.
 
 ## Platforms
 
-<<<<<<< Updated upstream
-- [LeetCode](https://leetcode.com)
-- [Codewars](https://www.codewars.com)
-- [HackerRank](https://www.hackerrank.com)
-=======
 ## License
 
 Distributed under the MIT License. See `LICENSE` for details.
@@ -174,4 +168,3 @@ Distributed under the MIT License. See `LICENSE` for details.
 ---
 
 &copy; 2026 Huerte
->>>>>>> Stashed changes
