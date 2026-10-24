@@ -30,9 +30,7 @@ I'm growing it into a place where the **same problem is solved in many languages
 
 ## Structure
 
-Python solutions are organized by year. Solutions in other languages live in `other_languages/`. Each file is named `practice<n>` in the order it was solved.
-
-Solutions are organized by language. Each file is named `practice<n>` in the order it was solved within that language's folder.
+The legacy `practice_problem_solutions (2025)` and `practice_problem_solutions (2026)` directories contain Python solutions organized by year. New contributions should go in `solutions/<language>/`, where each file is named `practice<n>` in the order it was added within that language's folder. The older `other_languages/` directory is retained for existing contributions.
 
 ```
 algo-solutions-python/
