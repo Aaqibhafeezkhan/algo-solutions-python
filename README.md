@@ -12,7 +12,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=LeetCode&logoColor=black)](https://leetcode.com)
 [![Codewars](https://img.shields.io/badge/Codewars-B1361E?logo=codewars&logoColor=white)](https://www.codewars.com)
-[![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?logo=HackerRank&logoColor=white)](https://www.hackerrank.com)
+[![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?logo=HackerRank&logoColor=white)](https://www.hackerrank.com)
 [![CheckiO](https://img.shields.io/badge/CheckiO-3E7DA1?logo=checkio&logoColor=white)](https://py.checkio.org/)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-298D46?logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org)
 
@@ -30,7 +30,9 @@ I'm growing it into a place where the **same problem is solved in many languages
 
 ## Structure
 
-The legacy `practice_problem_solutions (2025)` and `practice_problem_solutions (2026)` directories contain Python solutions organized by year. New contributions should go in `solutions/<language>/`, where each file is named `practice<n>` in the order it was added within that language's folder. The older `other_languages/` directory is retained for existing contributions.
+Python solutions are organized by year. Solutions in other languages live in `other_languages/`. Each file is named `practice<n>` in the order it was solved.
+
+Solutions are organized by language. Each file is named `practice<n>` in the order it was solved within that language's folder.
 
 ```
 algo-solutions-python/
