@@ -30,39 +30,17 @@ I'm growing it into a place where the **same problem is solved in many languages
 
 ## Structure
 
-Python solutions are organized by year. Solutions in other languages live in `other_languages/`. Each file is named `practice<n>` in the order it was solved.
-
 Solutions are organized by language. Each file is named `practice<n>` in the order it was solved within that language's folder.
 
 ```
 algo-solutions-python/
-├── practice_problem_solutions (2025)/     # Python
-│   ├── practice1.py
-│   ├── practice2.py
-│   └── ...
-├── practice_problem_solutions (2026)/     # Python
-│   ├── practice1.py
-│   └── ...
-└── other_languages/
-    ├── javascript/
-    │   └── practice1.js
-    ├── java/
-    │   └── practice1.java
-    ├── cpp/
-    │   └── practice1.cpp
-    └── ...                                # any language is welcome
 ├── solutions/
 │   ├── python/
 │   │   ├── practice1.py
 │   │   ├── practice2.py
 │   │   └── ...
-│   ├── javascript/
-│   │   └── practice1.js
-│   ├── java/
-│   │   └── practice1.java
-│   ├── cpp/
-│   │   └── practice1.cpp
-│   └── ...                     # any language is welcome
+│   └── <your language>/        # any language is welcome
+│       └── practice1.js
 ├── assets/
 ├── README.md
 └── LICENSE
