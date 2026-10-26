@@ -1,4 +1,5 @@
 # 📜 Problem — Spiral Matrix
+# Topic: arrays, simulation
 # Description:
 # Given an m x n matrix, return all elements of the matrix in spiral order.
 # The spiral order starts from the top-left corner and goes clockwise.
