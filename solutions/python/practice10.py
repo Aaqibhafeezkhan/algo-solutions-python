@@ -1,4 +1,5 @@
 # 📜 Problem — First Letter to Appear Twice
+# Topic: strings, hash map
 # Description:
 # Given a string, find the first letter that appears twice. Return the first letter that has
 # a duplicate occurrence earlier in the string.
