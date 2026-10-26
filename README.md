@@ -3,7 +3,7 @@
 # Programming Problem Solving
 
 <p align="center">
-    <img src="assets/solution.png" alt="Solution Image">
+    <img src="assets/banner.svg" alt="Algorithm Solutions, a multi-language collection of algorithm solutions">
 </p>
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
