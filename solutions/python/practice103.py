@@ -1,4 +1,18 @@
 # Calculate Percentage of Letter in String
+# Given a string s and a character letter, return the percentage of characters in s that equal letter rounded down to the nearest whole percent.
+
+# Input:
+# - s: A string consisting of lowercase and uppercase English letters (1 <= s.length <= 100)
+# - c: A character representing the target letter to count
+
+# Output:
+# - An integer representing the percentage of occurrences of c in s (floored)
+#
+# Examples:
+# Example 1:
+#   Input:  s = "foobar", letter = "o"
+#   Output: 33
+#   Explanation: The percentage of characters in s that equal the letter 'o' is 2 / 6 * 100% = 33% when rounded down.
 
 def letter_percentage(s, c):
     if not s:
