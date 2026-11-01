@@ -8,7 +8,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#how-to-contribute)
-[![Good First Issues](https://img.shields.io/badge/good%20first-issues-7057ff.svg)](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/badge/good%20first-issues-7057ff.svg](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=LeetCode&logoColor=black)](https://leetcode.com)
 [![Codewars](https://img.shields.io/badge/Codewars-B1361E?logo=codewars&logoColor=white)](https://www.codewars.com)
@@ -54,6 +54,16 @@ Each file includes the problem source and a short note at the top as a comment:
 # Note: Used a dictionary for O(n) lookup
 ```
 
+## Generating the solutions index
+
+The [solutions index](INDEX.md) lists each numbered solution with its problem name, source link, language, and file path. Rebuild it after adding or changing solutions by running this command from the repository root:
+
+```bash
+python scripts/generate_index.py
+```
+
+The generator reads the `Problem` and `Source` header comments, sorts entries by language and solution number, and keeps files with missing or unreadable headers in the index with `Not provided` values.
+
 ## How to contribute
 
 This repo is **open for everyone**. Any language, any level, no experience required. You can contribute without writing code at all.
@@ -93,7 +103,7 @@ Prefer video? Watch this: [How to contribute on GitHub (YouTube)](https://youtu.
 - Add a header comment with the problem name, link, and a one-line note
 - Messy but working code is welcome, and I'll help polish it in review
 
-Don't see a folder for your language? Create it. You'll be the first contributor for it, and I'll credit you here.
+Don't see a folder for your language? Create it. You'll be the first contributor for that language, and I'll credit you here.
 
 ## Contributors
 
