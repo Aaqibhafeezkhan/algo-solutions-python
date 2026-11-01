@@ -43,8 +43,13 @@ algo-solutions-python/
 │       └── practice1.js
 ├── assets/
 ├── README.md
+├── INDEX.md
+├── scripts/
+│   └── generate_index.py
 └── LICENSE
 ```
+
+Browse the generated [solutions index](INDEX.md) for problem names, source links, languages, and file paths. Regenerate it after adding or updating solutions with `python scripts/generate_index.py`.
 
 Each file includes the problem source and a short note at the top as a comment:
 
