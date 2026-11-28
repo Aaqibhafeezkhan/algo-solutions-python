@@ -3,7 +3,7 @@
 # Note: Returns the most expensive products from a list of dictionaries.
 # Description:
 # Given a limit and a list of dictionaries with "name" and "price" keys, return the top "limit" items
-# with the highest prices. The result should maintain the original order of items in the data.
+# with the highest prices, sorted from highest to lowest. Items with equal prices retain their input order.
 # 
 # Example:
 # - Input: limit=2, data=[{"name": "bread", "price": 100}, {"name": "wine", "price": 138}, ...]
@@ -12,14 +12,7 @@
 # Status: ✅ SOLVED
 
 def bigger_price(limit: int, data: list[dict]) -> list[dict]:
-    if len(data) < 1:
+    if limit <= 0 or not data:
         return []
 
-    result = []
-    filtered = sorted([x.get("price", 0) for x in data])[limit * -1:]
-    for i in range(len(filtered)):
-        for dic in data:
-            if dic.get("price") == filtered[i]:
-                result.append(dic)
-                break
-    return result
+    return sorted(data, key=lambda item: item.get("price", 0), reverse=True)[:limit]
