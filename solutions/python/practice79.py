@@ -22,13 +22,9 @@ def print_character_triangle(character, n):
     level = 1
     
     for i in range(n):
-        # Calculate leading spaces
-        spaces = " " * ((n + 2) - (i + 3))
-        
-        # Create the row with characters
+        spaces = " " * max(n - i - 2, 0)
         row = spaces + character * level
         result.append(row)
-        
         level += 2
     
     return "\n".join(result)
